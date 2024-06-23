@@ -39,7 +39,7 @@ const ProductManagement = lazy(
 const TransactionManagement = lazy(
   () => import("./pages/admin/management/transactionmanagement")
 );
-
+// delete
 const App = () => {
   const { user, loading } = useSelector(
     (state: RootState) => state.userReducer
